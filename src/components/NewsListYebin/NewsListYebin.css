@@ -1,0 +1,130 @@
+.news-yb-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .news-yb-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .news-yb-search input {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    font-size: 1rem;
+  }
+  
+  .news-yb-search button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .news-yb-search button:hover {
+    background-color: #0056b3;
+  }
+  
+  .news-yb-search-example {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .news-yb-search-example button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: 1px solid lightgray;
+    border-radius: 0 5px 5px 0;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .news-yb-search-example button:hover {
+
+    background-color: lightgray;
+  }
+
+
+  .news-yb {
+    width: 360px;
+    height: 160px;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background: #fdfdfd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .news-yb h1 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .news-yb .text {
+    font-size: 1rem;
+  }
+  
+  .news-yb .text p {
+    margin: 5px 0;
+  }
+  
+  .news-yb .text p {
+    color: grey;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .news-yb .text p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  div {
+    text-align: center;
+    font-size: 1rem;
+    color: #777;
+    margin-top: 20px;
+  }
+  
+  h2 {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .news-yb-container2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 한 줄에 5개 */
+    gap: 20px; /* 아이템 간 간격 */
+    padding: 10px;
+  }

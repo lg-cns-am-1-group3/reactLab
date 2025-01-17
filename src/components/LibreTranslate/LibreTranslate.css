@@ -1,0 +1,84 @@
+.translate-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* �쒕ぉ �ㅽ��� */
+h1 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+}
+
+/* �몄뼱 �좏깮 諛뺤뒪 �ㅽ��� */
+.language-select-group {
+  margin-bottom: 15px;
+}
+
+.language-select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* �띿뒪�� �낅젰李� �ㅽ��� */
+.textarea-group {
+  margin-bottom: 20px;
+}
+
+.translate-textarea {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+  min-height: 150px;
+  box-sizing: border-box;
+}
+
+/* 踰덉뿭 踰꾪듉 �ㅽ��� */
+.translate-button {
+  width: 100%;
+  padding: 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  box-sizing: border-box;
+}
+
+.translate-button:hover {
+  background-color: #45a049;
+}
+
+/* 踰덉뿭 寃곌낵 �ㅽ��� */
+.translated-text-container {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.translated-text-container h2 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.translated-text-container p {
+  font-size: 16px;
+  color: #555;
+}

@@ -1,0 +1,37 @@
+.hp-character-page {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.toggle-buttons {
+  margin-bottom: 20px;
+}
+
+.toggle-buttons button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: #ddd;
+}
+
+.toggle-buttons button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.api-info {
+  text-align: left;
+  margin: 0 auto;
+  max-width: 600px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.api-info pre {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 4px;
+  overflow-x: auto;
+}

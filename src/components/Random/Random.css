@@ -1,0 +1,75 @@
+/* 전체 컨테이너 스타일 */
+.yesno-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+/* "랜덤값 Yes/No ?" 스타일 */
+.yesno-container h1 {
+  font-size: 36px;
+  font-family: 'Pacifico', cursive;
+  color: #cd659c;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+/* 버튼 스타일 */
+.yesno-container button {
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  background: linear-gradient(45deg, #ff6f61, #f3a683);
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.yesno-container button:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* "YES/NO" 텍스트 스타일 */
+.answer-section h2 {
+  margin: 20px 0;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  background: linear-gradient(
+    90deg,
+    rgb(226, 102, 102),
+    orange,
+    rgb(223, 209, 103),
+    rgb(149, 222, 90),
+    rgb(94, 136, 195),
+    rgb(171, 79, 237),
+    rgb(222, 139, 222)
+  ); /* 무지개색 그라데이션 */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow 3s infinite; /* 무지개색 애니메이션 */
+}
+
+/* YES/NO 애니메이션 */
+@keyframes rainbow {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+/* 이미지 스타일 */
+.answer-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* 이미지 그림자 */
+}

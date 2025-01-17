@@ -1,0 +1,23 @@
+.hp-character-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 300px;
+  background-color: #f9f9f9;
+  text-align: left;
+}
+
+.hp-character-card-header {
+  text-align: center;
+}
+
+.hp-character-card-header img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.hp-character-card-body {
+  margin-top: 16px;
+}
