@@ -1,4 +1,4 @@
-# LG CNS AM CAMP 1기 - JAVA 프로젝트 (3조)
+# LG CNS AM CAMP 1기 - REACT 프로젝트 (3조)
 
 ### 기간:
 2025.01.08 ~ 2025.01.09 1:00PM
